@@ -1,0 +1,38 @@
+﻿
+a:visited {
+    text-decoration: none;
+     
+}
+
+
+h1{
+margin-top:50px;
+
+}
+
+.h1{
+   color:red;
+    
+}
+
+.h12{
+    color:blue;
+}
+
+a:active{
+    text-decoration:underline;
+   
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+
+.active{
+    text-decoration:underline;
+}
+
+body{
+    background-color:lightgray;
+}
