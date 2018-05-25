@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Nastavnik.Controllers
+namespace Auto_oglasnik.Controllers
 {
     public class HomeController : Controller
     {
