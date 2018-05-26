@@ -21,28 +21,28 @@ namespace Auto_oglasnik.Models
         [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
         [DataType(DataType.EmailAddress, ErrorMessage = "Upisali ste nevaljanu e-mail adresu")]
         [Display(Name = "Email")]
-        public char email { get; set; }
+        public string email { get; set; }
 
         [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
         [Display(Name = "Lozinka")]
-        public char lozinka { get; set; }
+        public string lozinka { get; set; }
 
-        [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
+       // [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
         [Display(Name = "Licenca")]
-        public char licenca { get; set; }
+        public string licenca { get; set; }
 
-        [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
+      //  [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
         [Display(Name = "Vrsta")]
         public int vrsta { get; set; }
 
         [Display(Name = "ID poduzece")]
         public int id_poduzece{ get; set; }
 
-        [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
+      //  [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
         [Display(Name = "Aktivan")]
         public int aktivan { get; set; }
 
-        [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
+      //  [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
         [Display(Name = "Aktiv link")]
         public int aktiv_link { get; set; }
     }
